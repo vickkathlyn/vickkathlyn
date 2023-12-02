@@ -1,27 +1,83 @@
-header{
-    background-color: var(--cor4);
-    font-family: var(--fonte-padrão);
-    text-align: center;
-    padding-top: 40px;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-header > h1{
-    color: rgb(10, 10, 10);
-    font-family: var(--fonte-destaque);
-    font-size: 3em;
-    margin-bottom: 20px;
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    margin-right: 200px;
 }
 
-header > p{
-    font-family: var(--fonte-padrão);
-    font-size: 1.2em;
-    color: white;
-    max-width: 600px;
-    padding-right: 10px;
-    padding-left: 10px;
+nav a {
+    padding: 5px 20px;
+    color: #fdfdfd;
+    margin-left: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #1b3358;
+    border-radius: 50px;
+}
+
+a:hover {
+    background-color: #2a388b;
+    border-radius: 50px;
+}
+
+.apresentar {
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 30%;
+    background-color: #294063;
+    border-radius: 50px;
+    padding:0px 20px 10px 20px;
+    box-sizing: border-box;
+    box-shadow:rgb(0, 0, 0);
+    border: 3px solid #fdfdfd;
+}
+
+
+.apresentar p {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.apresentar H2{
+    color: #ffffff;
+}
+
+.apresentar h1 {
+    font-family: Trebuchet;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(img/seilamelhorado.jpg);
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+.eu{
+    position: relative;
+    display: flex;
+}
+.imagem{
+    display: flex;
+}
+.eu{
+    margin-top: 10% ;
+    margin-left: 10% ;
+    width: 500px; 
+    height: 550px;
     
-
-}
-nav > a {
-    transition-duration: 0,5s; /*pra ter uma transição quando passa o mouse */
+    
 }
